@@ -36,3 +36,5 @@ const adress=user.adress;
 const ans="abhu".slice(1,4);
 console.log(ans);
 
+const str="hellor abhu";
+console.log(str.replace("abhu","java script"));

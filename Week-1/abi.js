@@ -16,8 +16,6 @@ if(type=="sum"){
         total+=numbers[i];
     }
 console.log("sum of the numbers:",total);
-    
-    
 }
 
 const user={

@@ -32,3 +32,7 @@ const adress=user.adress;
 
  const str="abhu";
  console.log(str.length);
+
+const ans="abhu".slice(1,4);
+console.log(ans);
+

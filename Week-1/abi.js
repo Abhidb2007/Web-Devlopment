@@ -19,3 +19,18 @@ console.log("sum of the numbers:",total);
     
     
 }
+
+const user={
+    name:"John",
+    age:23,
+    adress:{
+        city:"New York",
+        state:"NY"
+    }
+}
+console.log(user["adress"]["city"]);
+const adress=user.adress;
+
+
+ const str="abhu";
+ console.log(str.length);

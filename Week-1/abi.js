@@ -38,3 +38,8 @@ console.log(ans);
 
 const str="hellor abhu";
 console.log(str.replace("abhu","java script"));
+
+// split String
+const name="i am angry boy";
+const words=name.split("");
+console.log(words);

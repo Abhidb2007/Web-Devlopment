@@ -55,6 +55,17 @@ console.log(value.toUpperCase());
 const value = "   Abhu   Bhu   ";
 console.log(value.toLowerCase());
 
-//parseInt
+//parseInt //parseflaot
 console.log(parseInt("234"));
 console.log(parseInt("234.45px"));
+
+
+ const slice="asdf";
+ console.log(slice.slice(1,3));
+
+ //push
+ const initialArray =[1,2,3,4]
+ initialArray.push(3);
+ console.log(initialArray);
+
+

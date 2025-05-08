@@ -77,3 +77,7 @@ console.log(parseInt("234.45px"));
  const initialArray =[1,2,3,4]
  initialArray.unshift();
  console.log(initialArray);
+ //unshift
+ const initialArray =[1,2,3,4]
+ initialArray.shift();
+ console.log(initialArray);

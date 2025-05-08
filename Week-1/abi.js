@@ -68,4 +68,7 @@ console.log(parseInt("234.45px"));
  initialArray.push(3);
  console.log(initialArray);
 
-
+// pop
+ const initialArray =[1,2,3,4]
+ initialArray.pop(3);
+ console.log(initialArray); 

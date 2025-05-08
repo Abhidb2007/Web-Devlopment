@@ -54,3 +54,7 @@ console.log(value.toUpperCase());
 
 const value = "   Abhu   Bhu   ";
 console.log(value.toLowerCase());
+
+//parseInt
+console.log(parseInt("234"));
+console.log(parseInt("234.45px"));

@@ -96,5 +96,12 @@ console.log(parseInt("234.45px"));
  for (let i=0;i<initialArray.length;i++){
      console.log(initialArray[i]);
  }
- 
+ function logThing(str){
+    console.log(str);
+}
+// [1,2,3,4]
+initialArray.forEach(logThing);
+logThing(1)
+logThing(2)
+logThing(3) 
  

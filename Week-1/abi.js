@@ -91,3 +91,10 @@ console.log(parseInt("234.45px"));
  const secondaryArray=[5,6,7,6]
  const finalArray=(initialArray.concat(secondaryArray));
  console.log(finalArray);
+
+ const initialArray =[1,2,3,4]
+ for (let i=0;i<initialArray.length;i++){
+     console.log(initialArray[i]);
+ }
+ 
+ 

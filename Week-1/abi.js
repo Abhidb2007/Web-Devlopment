@@ -43,3 +43,7 @@ console.log(str.replace("abhu","java script"));
 const name="i am angry boy";
 const words=name.split("");
 console.log(words);
+
+// trimstring
+const value ="   abhu   allu   ";
+console.log("value.trim()");

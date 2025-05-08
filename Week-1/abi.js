@@ -135,3 +135,7 @@ class Animal{
         console.log("hi there"+this.name);
     }
     }
+   
+const currentDate=new Date();
+console.log(currentDate.getMonth());
+

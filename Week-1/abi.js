@@ -137,5 +137,5 @@ class Animal{
     }
    
 const currentDate=new Date();
-console.log(currentDate.getMonth());
+console.log("Time in milliseconds since 1970:" currentDate.getTime());
 

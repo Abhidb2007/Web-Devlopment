@@ -104,4 +104,25 @@ initialArray.forEach(logThing);
 logThing(1)
 logThing(2)
 logThing(3) 
+
+//map,filter,find,sort,call back
+
+const dog={
+    name:"dogg",
+    leg:4,
+    tail:1,
+};
+const cat={
+    name:"cat",
+    leg:4,
+    tail:1,
+};  
+
+function printstr(animal){
+    console.log("animal"+animal["name"]+" "+animal["speaks"]);
+}
+
+console,log("animal"+dog["name"]+" "+dog["tail"]);
+console.log("animal"+cat["name"]+" "+cat["leg"]);
+
  

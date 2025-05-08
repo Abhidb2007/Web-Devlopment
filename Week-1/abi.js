@@ -70,5 +70,10 @@ console.log(parseInt("234.45px"));
 
 // pop
  const initialArray =[1,2,3,4]
- initialArray.pop(3);
+ initialArray.shift(3);
  console.log(initialArray); 
+
+ //shift
+ const initialArray =[1,2,3,4]
+ initialArray.unshift();
+ console.log(initialArray);

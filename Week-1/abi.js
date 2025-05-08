@@ -141,3 +141,9 @@ console.log("Time in milliseconds since 1970:" currentDate.getTime());
 
 const user={name:"abhu",age:23,city:"New York"};
 console.log(user."name");
+  const user={
+    name:"abhi",
+    age:34,
+}
+const finalString=JSON.stringfy(user)
+console.log(finalString["name"]);

@@ -47,3 +47,10 @@ console.log(words);
 // trimstring
 const value ="   abhu   allu   ";
 console.log("value.trim()");
+
+// toupper Case
+const value = "   abhu   bhu   ";
+console.log(value.toUpperCase());
+
+const value = "   Abhu   Bhu   ";
+console.log(value.toLowerCase());

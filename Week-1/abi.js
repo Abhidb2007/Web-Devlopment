@@ -125,4 +125,13 @@ function printstr(animal){
 console,log("animal"+dog["name"]+" "+dog["tail"]);
 console.log("animal"+cat["name"]+" "+cat["leg"]);
 
- 
+class Animal{
+    constructor(name,leg,tail){
+        this.name=name;
+        this.leg=leg;
+        this.tail=tail;
+    }
+    speaks(){
+        console.log("hi there"+this.name);
+    }
+    }

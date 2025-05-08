@@ -81,3 +81,8 @@ console.log(parseInt("234.45px"));
  const initialArray =[1,2,3,4]
  initialArray.shift();
  console.log(initialArray);
+
+ //concat
+ const initialArray =[1,2,3,4]
+ const secondaryArray=[5,6,7,6]
+ console.log(initialArray.concat(secondaryArray));

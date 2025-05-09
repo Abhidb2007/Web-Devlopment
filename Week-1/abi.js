@@ -149,3 +149,4 @@ const finalString=JSON.stringfy(user)
 console.log(finalString["name"]);
 
 console.log(math.random);
+console.log(math.floor(2.4));

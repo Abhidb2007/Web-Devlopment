@@ -149,8 +149,12 @@ const finalString=JSON.stringfy(user)
 console.log(finalString["name"]);
 
 console.log(math.random);
+
+//loops
 let ans =1+2+3+4+5+6+7+8+9+10;
 console.log(ans);
+
+//function
 let ans=0;
 for(let i=1;i<=10;i++){
     ans=ans+i;
@@ -201,6 +205,19 @@ console.log(sumOfcubes(1,3));
     return val1+val2;
  }
  sumOfSomething(a,b,cubes);
+  
+ function findSum(n){
+    let ans=0;
+    for(let i=1;i<n;i++){
+        ans=ans+i;
+    }
+     return ans;    
+ }
+ function findSumTill100(){
+    return findSum(100);
+ }
+ setTimeout(findSumTill100, 1000);
+ console.log("hello");
 
 
  

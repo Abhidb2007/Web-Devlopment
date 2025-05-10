@@ -195,7 +195,12 @@ function sumOfcubes(a,b){
     return val1+val2;
 }
 console.log(sumOfcubes(1,3));
-
+ function sumOfSomething(a,b,fn){
+    const val1=fun(a);
+    const val2=fun(b);
+    return val1+val2;
+ }
+ sumOfSomething(a,b,cubes);
 
 
  

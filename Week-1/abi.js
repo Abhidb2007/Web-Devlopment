@@ -165,3 +165,6 @@ function findSum(n){
      return ans;   i
     
 }
+function sum(a,b){
+    return(a+b);
+}

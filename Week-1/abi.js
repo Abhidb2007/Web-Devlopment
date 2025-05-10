@@ -185,4 +185,17 @@ function sumOfSqures(a,b){
 }
 console.log(sumOfSqures(1,3));
 
+function cubes(n){
+    return n*n*n;
+
+}
+function sumOfcubes(a,b){
+    const val1=cubes(a);
+    const val2=cubes(b);
+    return val1+val2;
+}
+console.log(sumOfcubes(1,3));
+
+
+
  

@@ -165,6 +165,11 @@ function findSum(n){
      return ans;   i
     
 }
+
+let ans=findSum(100);;
+console.log(ans);
+
 function sum(a,b){
     return(a+b);
 }
+ 

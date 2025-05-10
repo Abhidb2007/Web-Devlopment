@@ -219,5 +219,17 @@ console.log(sumOfcubes(1,3));
  setTimeout(findSumTill100, 1000);
  console.log("hello");
 
+  const fs=require("fs");
+  //filesystem
+  fs .readFile("a.txt","utf-8",function(err,data)){
+    console .log(data);
+  }
+  console.log("hi there");
+  let a=0;
+  for(let i=0;i<10000;i++){
+    a++;
+  }
+    console.log("hi there 2");
+
 
  

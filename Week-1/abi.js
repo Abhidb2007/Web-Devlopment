@@ -243,4 +243,7 @@ function syncSleep(){
         a++;
     }
 }
+syncSleep();
+    //setTimeout(findSumTill100,9000)
+    console.log("hello world");
  

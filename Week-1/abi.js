@@ -247,3 +247,9 @@ syncSleep();
     //setTimeout(findSumTill100,9000)
     console.log("hello world");
  
+const fs = require("fs");
+// fileSystem module
+fs.readFile("a.txt","utf-8",function(err,data){
+    console.log(data);
+})
+console.log("hi there");

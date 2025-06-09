@@ -226,10 +226,15 @@ console.log(sumOfcubes(1,3));
   }
   console.log("hi there");
   let a=0;
-  for(let i=0;i<10000;i++){
-    a++;
-  }
-    console.log("hi there 2");
-
+  
+ function findSum(n){
+    let ans=0;
+    for(let i=0;i<n;i++){
+        ans=ans+i;
+    }
+    return ans;
+ } 
+ console.log(findSum(1));
+ 
 
  

@@ -235,6 +235,12 @@ console.log(sumOfcubes(1,3));
     return ans;
  } 
  console.log(findSum(1));
- 
 
+// busy waiting 
+function syncSleep(){
+    let a=1;
+    for(let i=0;i<10000;i++){
+        a++;
+    }
+}
  

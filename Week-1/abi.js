@@ -258,3 +258,13 @@ for(let i=0;i<1;i++){
     a++;
 }
 console.log("hi there 2");
+
+
+ function square(n){
+    return n * n;
+ }
+ function sumOfCube(a,b){
+    const val1= fun(a);
+    const val2= fun(b);
+    return val1+val2;
+ }

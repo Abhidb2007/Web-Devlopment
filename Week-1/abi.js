@@ -268,3 +268,14 @@ console.log("hi there 2");
     const val2= fun(b);
     return val1+val2;
  }
+ function calculateSum(n){
+    let ans=0;
+    for(let i=0;i<n;i++){
+        ans=ans+i;
+    }
+    return ans;
+ }
+ 
+ let ans = calculateSum(10);
+    console.log(ans);
+

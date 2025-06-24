@@ -285,3 +285,14 @@ console.log("hi there 2");
         res.send("hello world");
 
     })
+
+    function sum(n){
+        let ans=0;
+        for(let i=0;i<=n;i++){
+            ans=ans+i;
+        }
+        return ans;
+    }
+    app.get("/hello", (req, res) => {
+  res.send("You requested: " + req.url);
+});

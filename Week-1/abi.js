@@ -341,4 +341,15 @@ const ans=arr.filter(filterLogic);
   </body>
 </html>
 
+const express = require("express");
+const app = express();
+
+app.use(express.json()); // 👈 built-in middleware
+
+app.post("/data", (req, res) => {
+  console.log(req.body); // 👍 this works only because of express.json()
+  res.send("Data received");
+});
+
+
 

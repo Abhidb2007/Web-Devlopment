@@ -316,6 +316,7 @@ return i*2;
 });
 console.log(ans);
 
+
 const arr=[1,2,3,4,5];
 //ans
 function filtereLog(n){
@@ -326,4 +327,18 @@ function filtereLog(n){
     }
     }
 const ans=arr.filter(filterLogic);
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Website</title>
+  </head>
+  <body>
+    <h1>Hello, Abhishek!</h1>
+    <p>This is a simple HTML page.</p>
+    <a href="https://www.google.com">Go to Google</a>
+  </body>
+</html>
+
 

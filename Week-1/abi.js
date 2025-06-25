@@ -296,3 +296,8 @@ console.log("hi there 2");
     app.get("/hello", (req, res) => {
   res.send("You requested: " + req.url);
 });
+ function sum(a,b){
+    return a+b;
+ }
+ const ans=sum(1,2);
+ console.log(ans);

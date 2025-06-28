@@ -2,4 +2,16 @@ if (username!="abhi"&&password!="12"){
   res.status(121).json({
     msg:"user does not exist",
   });
+  return;
 }
+
+const express = require("express");
+const app = express(); // app is your Express web server
+
+app.get("/", (req, res) => {
+  res.send("Welcome to my website!");
+});
+
+app.listen(3000, () => {
+  console.log("Server running on http://localhost:3000");
+});

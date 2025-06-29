@@ -1,15 +1,11 @@
-a=10
-print(a);
 if ( !(username=="abhi" && password=="12") )
 if (username != "abhi" || password != "12") {
    res.status(401).json({ "msg": "I am bad boy" });
 }
 
-const app=express();
-app.use(express.json()); 
-
 const express = require("express");
 const app = express();
+app.use(express.json()); 
 
 let requestCount = 0; // This will store the number of requests
 

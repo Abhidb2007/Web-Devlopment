@@ -8,5 +8,6 @@ for(let i=0;i<=n;i++){
 return ans;
 }
 app.get("/",function(req,res){
+    const n = req.query.n;
     res.send("hi there")
 });
